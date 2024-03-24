@@ -1,11 +1,11 @@
 import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import connectDB from "./config/db.js";
-import authRoutes from "./routes/authRoute.js";
+import connectDB from "../config/db.js";
+import authRoutes from "../routes/authRoute.js";
 import cors from 'cors';
-import categoryRoutes from './routes/categoryRoutes.js';
-import productRoute from './routes/productRoute.js';
+import categoryRoutes from '../routes/categoryRoutes.js';
+import productRoute from '../routes/productRoute.js';
 import session from 'express-session';
 
 // import passportStrategy from "./passport.js"

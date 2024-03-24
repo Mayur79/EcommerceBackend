@@ -35,7 +35,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoute);
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
     res.send("Welcome to my ecommerce backend");
 })
 
